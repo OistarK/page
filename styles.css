@@ -130,6 +130,21 @@ header h1 {
 	justify-self: center;
 }
 
+/* INSTRUCTIONS
+----------------------------------------
+*/
+
+
+
+/* COLLECTION LIST
+----------------------------------------
+*/
+
+.collectionList .find {
+	display: flex;
+}
+
+
 /* ARTIST STATEMENT
 ----------------------------------------
 */
