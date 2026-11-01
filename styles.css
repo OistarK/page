@@ -142,6 +142,22 @@ header h1 {
 
 .collectionList .find {
 	display: flex;
+	justify-self: center;
+}
+
+.collectionList .find p {
+	font-size: 2em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.collectionList .find .unfound {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.collectionList .find .unfound img {
+	border-radius: 50%;
 }
 
 
