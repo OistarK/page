@@ -145,8 +145,13 @@ header h1 {
 	justify-self: center;
 }
 
+.collectionList .dark{
+	background-color: #8f9482;
+
+}
+
 .collectionList .find p {
-	font-size: 2em;
+	font-size: 1.3em;
 	padding-left: 10px;
 	padding-right: 10px;
 }
