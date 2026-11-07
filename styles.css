@@ -188,7 +188,17 @@ header h1 {
 
 }
 
+/* LOCATION CONTENT
+----------------------------------------
+*/
 
+.locationContent {
+	justify-self: center;
+}
+
+.locationContent .locationImage {
+
+}
 
 
 /* FOOTER
