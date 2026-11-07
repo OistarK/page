@@ -196,6 +196,8 @@ header h1 {
 	justify-self: center;
 	justify-content: center;
 	align-content: center;
+	left: 50%;
+	right: 50%;
 }
 
 .locationContent .locationImage {
@@ -205,7 +207,7 @@ header h1 {
 	right: 50%;
 }
 
-.locationContent .locationImage img{
+.locationContent .locationImage img {
 	justify-self: center;
 	align-self: center;
 	left: 50%;
