@@ -149,7 +149,7 @@ header h1 {
 .collectionList .find {
 	display: flex;
 	justify-self: center;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	left: 50%;
 	padding-top: 15px;
 	padding-bottom: 15px;
