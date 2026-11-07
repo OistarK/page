@@ -151,6 +151,8 @@ header h1 {
 	justify-self: center;
 	justify-content: space-between;
 	left: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .collectionList .dark{
