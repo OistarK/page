@@ -140,9 +140,14 @@ header h1 {
 ----------------------------------------
 */
 
+.collectionList {
+	justify-self: center;
+}
+
 .collectionList .find {
 	display: flex;
 	justify-self: center;
+	justify-content: space-between;
 }
 
 .collectionList .dark{
