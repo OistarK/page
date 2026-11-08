@@ -196,22 +196,24 @@ header h1 {
 	justify-self: center;
 	justify-content: center;
 	align-content: center;
-	left: 50%;
-	right: 50%;
+	
 }
 
 .locationContent .locationImage {
 	justify-self: center;
 	align-self: center;
-	left: 50%;
-	right: 50%;
+	justify-content: center;
 }
 
 .locationContent .locationImage img {
 	justify-self: center;
 	align-self: center;
+	margin: 0;
+	position: relative;
+	top: 50%;
 	left: 50%;
-	right: 50%;
+	-ms-transform: translate(-50%, -0%);
+	transform: translate(-50%, -0%);
 }
 
 
