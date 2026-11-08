@@ -32,7 +32,16 @@
         <div class="find">
             <p>Bogong Moth</p>
             <div class="unfound">
-                <img src="images/6.png" height="112px" width="112px">
+                <img id="myImage" src="images/6.png" height="112px" width="112px">
+
+                <script>
+                    window.addEventListener('DOMContentLoaded', () => {
+                        const savedImg = localStorage.getItem('selectedImage');
+                        if (savedImg) {
+                            document.getElementById('myImage').src = savedImg;
+                        }
+                    });
+                </script>
             </div>
         </div>
 
@@ -87,9 +96,20 @@ For myself this work comes from a place of both love and disappointment in conte
         </div>
     </div>
 
-<!-- ==================== FOOTER ==================== -->
+<!-- ==================== RESET BUTTON ==================== -->
 
+<div class="container">
+    <div class="center">
+        <a href="index.html" title="Home"><button class="returnButton" id="resetBtn">Reset Collection</button></a>
+    
+        <script>
+            document.getElementById('resetBtn').addEventListener('click', function() {
+                localStorage.setItem('selectedImage', 'images/6.png');
+            });
+        </script>
+    </div>
 </div>
+
 </body>
 
 </html>
