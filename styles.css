@@ -99,7 +99,7 @@ header .small {
 	cursor: pointer;
 }
 
-#resetBtn {
+#resetBtn{
 	background-color: #410404;
 }
 
@@ -143,7 +143,11 @@ header .small {
 ----------------------------------------
 */
 
+.InstDiv {
+	padding-left: 25px;
+	padding-right: 25px;
 
+}
 
 /* COLLECTION LIST
 ----------------------------------------
