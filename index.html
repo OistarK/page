@@ -32,13 +32,13 @@
         <div class="find">
             <p>Bogong Moth</p>
             <div class="unfound">
-                <img id="myImage" src="images/6.png" height="112px" width="112px">
+                <img id="myImageBM" src="images/6.png" height="112px" width="112px">
 
                 <script>
                     window.addEventListener('DOMContentLoaded', () => {
-                        const savedImg = localStorage.getItem('selectedImage');
-                        if (savedImg) {
-                            document.getElementById('myImage').src = savedImg;
+                        const savedImgBM = localStorage.getItem('selectedImageBM');
+                        if (savedImgBM) {
+                            document.getElementById('myImageBM').src = savedImgBM;
                         }
                     });
                 </script>
@@ -47,7 +47,16 @@
 
         <div class="find dark">
             <div class="unfound">
-                <img src="images/3.png" height="112px" width="112px">
+                <img id="myImageLC" src="images/3.png" height="112px" width="112px">
+
+                <script>
+                    window.addEventListener('DOMContentLoaded', () => {
+                        const savedImgLC = localStorage.getItem('selectedImageLC');
+                        if (savedImgLC) {
+                            document.getElementById('myImageLC').src = savedImgLC;
+                        }
+                    });
+                </script>
             </div>
             <p>Leioproctus Carinatifrons</p>
         </div>
@@ -55,13 +64,31 @@
         <div class="find">
             <p>Adam's Emerald Dragonfly</p>
             <div class="unfound">
-                <img src="images/1.png" height="112px" width="112px">
+                <img id="myImageAE" src="images/1.png" height="112px" width="112px">
+            
+                <script>
+                    window.addEventListener('DOMContentLoaded', () => {
+                        const savedImgAE = localStorage.getItem('selectedImageAE');
+                        if (savedImgAE) {
+                            document.getElementById('myImageAE').src = savedImgAE;
+                        }
+                    });
+                </script>
             </div>
         </div>
 
         <div class="find dark">
             <div class="unfound">
-                <img src="images/2.png" height="112px" width="112px">
+                <img id="myImageDB" src="images/2.png" height="112px" width="112px">
+            
+                <script>
+                    window.addEventListener('DOMContentLoaded', () => {
+                        const savedImgDB = localStorage.getItem('selectedImageDB');
+                        if (savedImgDB) {
+                            document.getElementById('myImageDB').src = savedImgDB;
+                        }
+                    });
+                </script>
             </div>
             <p>Desert Blue Butterfly</p>
         </div>
@@ -69,13 +96,31 @@
         <div class="find">
             <p>Arid Bronze Azure</p>
             <div class="unfound">
-                <img src="images/4.png" height="112px" width="112px">
+                <img id="myImageAB" src="images/4.png" height="112px" width="112px">
+            
+                <script>
+                    window.addEventListener('DOMContentLoaded', () => {
+                        const savedImgAB = localStorage.getItem('selectedImageAB');
+                        if (savedImgAB) {
+                            document.getElementById('myImageAB').src = savedImgAB;
+                        }
+                    });
+                </script>               
             </div>
         </div>
 
         <div class="find dark">
             <div class="unfound">
-                <img src="images/5.png" height="112px" width="112px">
+                <img id="myImageGC" src="images/5.png" height="112px" width="112px">
+            
+                <script>
+                    window.addEventListener('DOMContentLoaded', () => {
+                        const savedImgGC = localStorage.getItem('selectedImageGC');
+                        if (savedImgGC) {
+                            document.getElementById('myImageGC').src = savedImgGC;
+                        }
+                    });
+                </script>
             </div>
             <p>Green Carpenter Bee</p>
         </div>
@@ -104,7 +149,12 @@ For myself this work comes from a place of both love and disappointment in conte
     
         <script>
             document.getElementById('resetBtn').addEventListener('click', function() {
-                localStorage.setItem('selectedImage', 'images/6.png');
+                localStorage.setItem('selectedImageBM', 'images/6.png');
+                localStorage.setItem('selectedImageLC', 'images/3.png');
+                localStorage.setItem('selectedImageAE', 'images/1.png');
+                localStorage.setItem('selectedImageDB', 'images/2.png');
+                localStorage.setItem('selectedImageAB', 'images/4.png');
+                localStorage.setItem('selectedImageGC', 'images/5.png');
             });
         </script>
     </div>
