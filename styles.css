@@ -100,7 +100,7 @@ header .small {
 }
 
 #resetBtn{
-	background-color: #410404;
+	background-color: #770707;
 }
 
 #colInde .one {
@@ -146,7 +146,7 @@ header .small {
 .InstDiv {
 	padding-left: 25px;
 	padding-right: 25px;
-
+	text-align: center;
 }
 
 /* COLLECTION LIST
@@ -200,6 +200,7 @@ header .small {
 .artistStatementCenter {
 	padding-left: 25px;
 	padding-right: 25px;
+	text-align: center;
 
 }
 
