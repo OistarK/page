@@ -99,6 +99,10 @@ header .small {
 	cursor: pointer;
 }
 
+#resetBtn {
+	background-color: #410404;
+}
+
 #colInde .one {
 	width: 64px;
 	height: 64px;
